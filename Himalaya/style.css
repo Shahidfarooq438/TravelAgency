@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align:left;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+nav a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #777;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.service h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.service p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonial h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.testimonial p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.destination img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.destination h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.destination p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px;
+    }
+    .service {
+        width: 33.33%;
+        float: left;
+    }
+    .testimonial {
+        width: 33.33%;
+        float: left;
+    }
+    .destination {
+        width: 33.33%;
+        float: left;
+    }
+}
