@@ -127,6 +127,8 @@ footer {
     margin-bottom: 20px;
     background-color: #000;
     color: #fff;
+    height: max-content;
+
     
 }
 .destination img {
@@ -143,28 +145,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-@media (min-width: 300px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-    }
-    nav a {
-        padding: 10px;
-    }
-    .service {
-        width: 33.33%;
-        float: left;
-    }
-    .testimonial {
-        width: 33.33%;
-        float: left;
-    }
-    .destination {
-        width: 33.33%;
-        float: left;
-    }
-}
+
 
 .social{
    display: flex;
@@ -238,3 +219,90 @@ footer {
 }
 
 
+/* @media (min-width: 300px ) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px;
+    }
+    .service {
+        width: 33.33%;
+        float: left;
+    }
+    .testimonial {
+        width: 33.33%;
+        float: left;
+    }
+    .destination {
+        width: 33.33%;
+        float: left;
+    }
+} */
+/* Mobile devices (up to 600px) */
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    nav a {
+        padding: 5px;
+    }
+    .service, .testimonial, .destination {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablets (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px;
+    }
+    .service, .testimonial, .destination {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Small laptops and desktops (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px;
+    }
+    .service, .testimonial, .destination {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/* Larger desktops (1201px and up) */
+@media (min-width: 1201px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px;
+    }
+    .service, .testimonial, .destination {
+        width: 33.33%;
+        float: left;
+    }
+}
