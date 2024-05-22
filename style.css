@@ -137,7 +137,7 @@ footer {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 300px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -206,3 +206,31 @@ footer {
 .my-float{
 	margin-top:16px;
 }
+
+/* slider */
+.slider img{
+    max-height: 400px;
+}
+.book{
+    position: absolute;
+}
+#btn{
+    border-radius: 16px;
+    border: #000 solid;
+    font-size: large;
+    font-weight: 900;
+    background-color: #bdbdbd(110, 116, 116);
+    position: relative;
+    bottom: 100px;
+    left: 40% ;
+    right: 40%;
+    width: 250px;
+    height: 40px;
+}
+
+#btn a{
+    color: #000;
+    text-decoration: none;
+}
+
+
