@@ -248,6 +248,17 @@ footer {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+.about{
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 120px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: #fff;
+}
 #btn{
     border-radius: 16px;
     border: #000 solid;
@@ -288,6 +299,11 @@ footer {
 }
    .service, .testimonial, .destination{
       width: 100vw;
+   }
+   .about{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
    }
 }
 
