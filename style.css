@@ -6,7 +6,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    padding: 0;
+    padding-left: 10px;
 }
 
 .home {
@@ -77,6 +77,16 @@ header a{
   transition: all 0.3s ease-in-out;
   background-color: #FFF;
 }
+.socio-copy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* .socio-copy .copy{
+  padding-top: 10px;
+} */
 
 @media(max-width:768px){
   .hamburger{
@@ -124,13 +134,17 @@ footer {
     padding: 10px;
     text-align: center;
 }
+.services{
+  background-color: #00BCD4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
 
 .service {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin-bottom: 20px;
     background-color: #000;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -145,6 +159,7 @@ footer {
 .service h3 {
     margin-top: 10px;
     margin-bottom: 5px;
+    padding: 10px 0;
 }
 .service p {
     margin-top: 5px;
@@ -176,17 +191,21 @@ footer {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+.destinations{
+  background-color: #00BCD4;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+
 .destination {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    margin-bottom: 20px;
     background-color: #000;
     color: #fff;
-    height: max-content;
-
-    
+    height: max-content;   
 }
 .destination img {
     width: 100%;
@@ -197,6 +216,7 @@ footer {
 .destination h3 {
     margin-top: 10px;
     margin-bottom: 5px;
+    padding: 20px 0;
 }
 .destination p {
     margin-top: 5px;
@@ -204,13 +224,12 @@ footer {
 }
 
 
-.social{
+.socio-copy .social{
    display: flex;
+   justify-content: space-around;
+   gap: 30px;
 }
 
-.social a{
-    padding: 10px;
-}
 
 .foot{
     display: block;
