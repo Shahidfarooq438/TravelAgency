@@ -297,8 +297,6 @@ footer {
 }
 
 
-
-
 /* Tablets (601px to 900px) */
  @media (min-width: 601px) and (max-width: 900px) {
    
@@ -310,32 +308,19 @@ footer {
     }
 }
 
-/* Small laptops and desktops (901px to 1200px) */
-/*@media (min-width: 901px) and (max-width: 1200px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-    }
-    nav a {
-        padding: 10px;
-    }
-    .service, .testimonial, .destination {
-        width: 33.33%;
-        float: left;
-    }
+@media(min-width:300px) and (max-width:600px){
+  #service, #testimonial, #destination {
+    display: flex;
+    flex-direction: column;
+}
+   .service, .testimonial, .destination{
+      width: 100vw;
+   }
 }
 
 /* Larger desktops (1201px and up) */
 @media (min-width: 1201px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-    }
-    nav a {
-        padding: 10px;
-    }
+    
     .service, .testimonial, .destination {
         width: 33.33%;
         float: left;
